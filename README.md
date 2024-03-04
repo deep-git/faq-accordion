@@ -1,8 +1,11 @@
-# React + Vite
+# FAQ Accordion
+This project is a Frontend Mentor challenge project that utilizes HTML, CSS, and React to create a FAQ accordion, which consists of a subheading title question as well as the content within the accordion associated with the subtitle. The content of the accordion is shown upon clicking either the subheading question or the plus icon next to it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## View Site
+Link: https://deep-git.github.io/article-preview/
 
-Currently, two official plugins are available:
+## Technologies Utilized
+- HTML
+- Tailwind CSS
+- React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
