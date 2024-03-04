@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+    background-image: url("/faq-accordion/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 425px) {
+    .image-container {
+        background-image: url("/faq-accordion/background-pattern-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.section_content:not(:first-child) {
+    border-top: 1px solid rgb(236, 236, 236);
+}
+
+@media only screen and (min-width: 768px) {
+    .section_content:not(:first-child) {
+        padding-top: 11px;
+    }
+}
